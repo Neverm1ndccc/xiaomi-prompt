@@ -1,0 +1,4 @@
+interface:
+  display_name: "小米影像 AI 运营工具箱"
+  short_description: "覆盖策划、分析、复盘与周报的小米影像运营全链路 AI 助手"
+  default_prompt: "使用 $xiaomi-image-ai-operations 完成这项小米影像运营任务，基于我提供的材料输出可直接审核和使用的结果。"
