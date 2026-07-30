@@ -27,11 +27,13 @@
 - 当前设备能够访问本私有仓库。组织仓库需先由管理员授予权限。
 - 使用 GitHub CLI 凭据、Git Credential Manager，或设置只读 `GH_TOKEN` / `GITHUB_TOKEN`。不要把令牌写进 README、聊天记录或仓库。
 
-运行 Codex 内置安装器。将 `REPOSITORY_FULL_NAME` 替换为仓库页面显示的 `owner/xiaomi-image-ai-operations-skill`：
+仓库地址：<https://github.com/Neverm1ndccc/xiaomi-prompt>
+
+运行 Codex 内置安装器：
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo REPOSITORY_FULL_NAME \
+  --repo Neverm1ndccc/xiaomi-prompt \
   --path . \
   --name xiaomi-image-ai-operations
 ```
@@ -41,7 +43,7 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 也可以直接告诉 Codex：
 
 ```text
-请使用 skill-installer，从私有 GitHub 仓库 REPOSITORY_FULL_NAME 的根目录安装，
+请使用 skill-installer，从私有 GitHub 仓库 Neverm1ndccc/xiaomi-prompt 的根目录安装，
 Skill 名称为 xiaomi-image-ai-operations。
 ```
 
